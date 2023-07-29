@@ -1,0 +1,36 @@
+.dice {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0.2rem;
+}
+
+.dice__side {
+  width: 5rem;
+  height: 5rem;
+  background-size: contain;
+}
+
+.dice__side--1 {
+  background-image: url('./img/side1.svg');
+}
+
+.dice__side--2 {
+  background-image: url('./img/side2.svg');
+}
+
+.dice__side--3 {
+  background-image: url('./img/side3.svg');
+}
+
+.dice__side--4 {
+  background-image: url('./img/side4.svg');
+}
+
+.dice__side--5 {
+  background-image: url('./img/side5.svg');
+}
+
+.dice__side--6 {
+  background-image: url('./img/side6.svg');
+}
